@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 2rem;
+  font-family:fantasy;
+  background-color: rgb(176, 176, 200);
+  background-image: linear-gradient(whitesmoke, black);
+  padding: 1rem;
+  
+}
+
+header {
+    text-align: center;
+    font-size: 1.5rem;
+    /* position: sticky;
+    top: 0; */
+   
+}
+
+header li {
+    list-style-type: none;
+    display: inline-block;
+    margin-inline: 2.5rem;
+   
+    
+}
+.primary-nav {
+   background-color: transparent; 
+  
+ 
+}
+
+.primary-nav a {
+    color: black;
+    display: inline-block; 
+    text-decoration: none;    
+}
+
+a:hover, a:focus {
+    color: rgb(234, 23, 23);
+    border-bottom: 2px solid red;
+}
+
+main {
+   text-align: center;
+}
+
+main h1 {
+  
+    font-weight: 100;
+    font-size: 100px;
+    text-shadow: 5px 5px 5px black;
+    text-transform: uppercase; 
+    white-space: nowrap;
+    width: 100%;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.home img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border: 5px solid rgba(206, 203, 203, 0.542);
+    border-radius: 50%;
+    margin-bottom: .5rem;
+  
+}
+
+.about-header {
+    background-color: rgba(245, 245, 245, 0.657);
+    padding: 1rem;
+}
+.about a {
+ text-decoration: none;
+ color: black;
+ font-size: 2rem;
+   
+}
+
+.about p {
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+ .top a{
+
+color: white;
+font-size: 1rem;
+border: 1px solid white;
+padding: 5px;
+   
+}
+
+.project-link {
+    background-color: whitesmoke;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50%;
+    
+}
+
+.projects-header {
+    background-color: white;
+    padding: 1rem;
+    background-color: rgba(245, 245, 245, 0.657);
+    
+}
+
+.projects-header a {
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    
+ 
+}
